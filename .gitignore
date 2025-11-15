@@ -1,7 +1,24 @@
-.venv/
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
+*.sqlite3
+*.db
+*.env
+
+# Virtual environment
+.venv/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# MacOS
 .DS_Store
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
